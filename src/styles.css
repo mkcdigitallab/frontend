@@ -138,3 +138,18 @@ body{background:radial-gradient(ellipse at 86% 8%,#e7ebff 0,transparent 28%),var
  .stats{border-radius:12px}
 }
 @media(prefers-reduced-motion:reduce){.hero .btn-primary{animation:none}}
+
+/* FlexEdu signature logo */
+.logo{display:inline-flex;align-items:center;gap:11px;white-space:nowrap;color:#17233c;font-size:0}
+.brand-mark{display:block;width:43px;height:43px;flex:0 0 43px;filter:drop-shadow(0 5px 9px #3157d52b);transition:transform .28s ease,filter .28s ease}
+.logo:hover .brand-mark{transform:translateY(-2px) rotate(-4deg);filter:drop-shadow(0 8px 13px #3157d548)}
+.brand-name{font-family:Manrope,sans-serif;font-size:23px;font-weight:650;letter-spacing:-1.15px;line-height:1;color:#182541}
+.brand-name strong{font-weight:850;color:#3157d5}
+.logo-white .brand-name{color:#fff}
+.logo-white .brand-name strong{color:#c9f36b}
+.mobile-logo .brand-mark{width:40px;height:40px;flex-basis:40px}
+.side .brand-mark{width:37px;height:37px;flex-basis:37px}
+.side .brand-name{font-size:20px}
+.footer .brand-mark{width:36px;height:36px;flex-basis:36px}
+.footer .brand-name{font-size:20px}
+@media(max-width:680px){.brand-mark{width:39px;height:39px;flex-basis:39px}.brand-name{font-size:21px}}
